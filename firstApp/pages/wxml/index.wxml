@@ -1,0 +1,13 @@
+<!--pages/wxml/index.wxml-->
+<text>wxml基本写法</text>
+<text>时间：{{time}}</text>
+<view wx:for="{{array}}">
+  {{index}}:{{item.message}}
+</view>
+<view><text>{{switchText}}</text></view>
+<switch wx:for="{{objectArray}}" wx:key="unique">{{item.id}}</switch>
+<button bindtap="switch">Switch</button>
+<button bindtap="addToFront">Add to fornt</button>
+<view><text>{{switchText1}}</text></view>
+<switch wx:for="{{numberArray}}" wx:key="*this"></switch>
+<button bindtap='addNumberToFront'>Add to the front</button>
