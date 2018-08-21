@@ -53,7 +53,7 @@ Page({
   },
   login: function(e){
     wx.reLaunch({
-      url: '/pages/hot/index'
+      url: '/pages/home/index'
     })
   }
 })

@@ -4,29 +4,12 @@
     "pages/logs/logs",
     "pages/home/index",
     "pages/hot/index",
-    "pages/discussion/index",
-    "pages/borrow/index",
     "pages/person/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "华北理工大学图书馆",
-    "navigationBarTextStyle":"black"
-  },
-  "tabBar":{
-    "list":[{
-      "pagePath":"pages/hot/index",
-      "text":"热门书籍"
-    },{
-      "pagePath":"pages/discussion/index",
-      "text":"分类"
-    },{
-      "pagePath":"pages/borrow/index",
-      "text":"借阅记录"
-    },{
-      "pagePath":"pages/person/index",
-      "text":"个人中心"
-    }]
+    "navigationBarBackgroundColor": "#008ae6",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle":"#ffffff"
   }
 }

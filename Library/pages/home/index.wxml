@@ -1,2 +1,3 @@
 <!--pages/home/index.wxml-->
 <text>pages/home/index.wxml</text>
+<input placeholder="查找图书" type="text"/>

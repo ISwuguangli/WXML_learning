@@ -1,1 +1,4 @@
 /* pages/home/index.wxss */
+body {
+  background-color: #edf3f7;
+}
