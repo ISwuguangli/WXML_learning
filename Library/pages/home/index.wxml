@@ -1,3 +1,25 @@
 <!--pages/home/index.wxml-->
-<text>pages/home/index.wxml</text>
-<input placeholder="查找图书" type="text"/>
+<view class='search-container'>
+  <view class='search-box'>
+    <input type='text' placeholder='查找图书'></input>
+    <icon type='search' size='20'></icon>
+  </view>
+</view>
+<view class='swiper-container'>
+  <swiper indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
+    <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}"/>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<view class='title'>
+  <view>热门书籍</view>
+</view>
+<view class='book-container'>
+  <view class='book-box'>
+    <view class='book'><image src='/bookImage/b1.png' /></view>
+    <view class='book-title'></view>
+  </view>
+</view>
